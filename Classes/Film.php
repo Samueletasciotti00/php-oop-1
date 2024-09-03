@@ -9,9 +9,9 @@ class Film {
     public $vote;
 
     // Dichiariamo il costruttore
-    public function __construct($_name, $_category){
+    public function __construct($_name, $_vote){
         $this->name = $_name;
-        $this->category = $_category;
+        $this->vote = $_vote;
     }
 
     //Funzione per indicare il film

@@ -2,7 +2,7 @@
 //Import file Film
 require __DIR__ . "/Classes/Film.php"
 
-
+$myFilm = new Film('Star-terk', '5')
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +12,6 @@ require __DIR__ . "/Classes/Film.php"
     <title>Boh</title>
 </head>
 <body>
-    <?php echo  $myfilm->Infofilm()?>
+    <?php echo  $myfilm->Infofilm();?>
 </body>
 </html>
