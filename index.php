@@ -1,6 +1,6 @@
 <?php
 //Import file Film
-require __DIR__ . "./Classes/Film.php"
+require __DIR__ . "/Classes/Film.php"
 
 
 ?>
