@@ -1,8 +1,9 @@
 <?php
 //Import file Film
-require __DIR__ . "/Classes/Film.php"
+require __DIR__ . "/Classes/Film.php";
 
-$myFilm = new Film('Star-terk', '5')
+$myFilm = new Film('Star-terk', 5);
+$newFilm = new Film('Il Mago di Oz', 4.5);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +13,7 @@ $myFilm = new Film('Star-terk', '5')
     <title>Boh</title>
 </head>
 <body>
-    <?php echo  $myfilm->Infofilm();?>
+    <?php echo $myFilm->infoFilm();?> <br>
+    <?php echo $newFilm->infoFilm();?>
 </body>
 </html>

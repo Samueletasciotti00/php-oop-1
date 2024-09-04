@@ -15,8 +15,8 @@ class Film {
     }
 
     //Funzione per indicare il film
-    public function Infofilm(){
-        return 'Il film' + $this->name + 'ha' + $this->vote + 'stelle';
+    public function infoFilm(){
+        return 'Il film ' . $this->name . ' ha ' . $this->vote . ' stelle';
     }
 
 } 
